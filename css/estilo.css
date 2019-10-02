@@ -1,0 +1,85 @@
+.container{
+    background-color: rgb(245, 239, 239);
+    width: auto;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.bt{
+    text-align: center;
+    margin: 10px;
+    width: 150px;
+    height: 50px;
+}
+.btn1:hover{
+    animation-name: anima1;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in;
+}
+.btn1{
+    border-radius: 60px;
+}
+
+
+.btn2:hover{
+    animation-name: anima2;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+
+}
+.btn2:hover{
+    border-bottom: 0 solid rgb(0, 17, 255);
+}
+
+.btn3:hover{
+    animation-name: anima3;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in;
+}
+.btn3{
+    border-radius: 20px;
+}
+
+
+
+@keyframes anima1 {
+    0%{
+        background-color: rgb(240, 234, 234);
+    }
+    100%{
+        background-color: rgb(170, 165, 165);
+        transform: scale(1);
+        transform: rotateX(360deg);
+
+    }
+}
+ 
+ @keyframes anima2{
+    0%{
+        background-color: rgb(142, 142, 255);
+    }
+    100%{
+        border-bottom: 3px solid rgb(0, 17, 255);
+    }
+} 
+
+@keyframes anima3{
+    0%{
+        background-color: rgb(255, 146, 146);
+    }
+    100%{
+        background-color: rgb(209, 206, 188);
+        transform: scale(2.2);
+        transform:  rotate(360deg);
+    }
+}
