@@ -1,7 +1,7 @@
 .container{
     background-color: rgb(245, 239, 239);
     width: auto;
-    height: 200px;
+    height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -12,6 +12,7 @@
     margin: 10px;
     width: 150px;
     height: 50px;
+    border:1px solid black;
 }
 .btn1:hover{
     animation-name: anima1;
@@ -21,10 +22,6 @@
     animation-fill-mode: both;
     animation-timing-function: ease-in;
 }
-.btn1{
-    border-radius: 60px;
-}
-
 
 .btn2:hover{
     animation-name: anima2;
@@ -35,7 +32,7 @@
 
 }
 .btn2:hover{
-    border-bottom: 0 solid rgb(0, 17, 255);
+    border-bottom: 3 solid rgb(0, 17, 255);
 }
 
 .btn3:hover{
@@ -45,9 +42,6 @@
     animation-direction: alternate-reverse;
     animation-fill-mode: both;
     animation-timing-function: ease-in;
-}
-.btn3{
-    border-radius: 20px;
 }
 
 
