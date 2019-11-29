@@ -1,0 +1,24 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Heveltica', sans-serif;
+}
+.banner-conteiner{
+    margin-top: 50px;
+    padding-top: 100px;
+    background-color: #A9A9F5;
+    color: rgb(255, 255, 255);
+}
+.footer-conteiner{
+   height: 100px;
+   color: white;
+   padding-bottom: 50px;
+   margin-top: 500px;
+}
+.conteudo-items{
+    margin-top: 50px;
+    color: white;
+    padding: 200px;
+    background-color: teal;
+}
