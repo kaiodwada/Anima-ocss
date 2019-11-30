@@ -22,3 +22,10 @@ html, body{
     padding: 200px;
     background-color: teal;
 }
+.menu-right{
+    display: flex;
+    justify-content:space-between;
+}
+.link-text{
+    font-size: 25px;
+}
