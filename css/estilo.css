@@ -4,28 +4,61 @@ html, body{
     height: 100%;
     font-family: 'Heveltica', sans-serif;
 }
-.banner-conteiner{
-    margin-top: 50px;
-    padding-top: 100px;
-    background-color: #A9A9F5;
-    color: rgb(255, 255, 255);
-}
-.footer-conteiner{
-   height: 100px;
-   color: white;
-   padding-bottom: 50px;
-   margin-top: 500px;
-}
-.conteudo-items{
-    margin-top: 50px;
-    color: white;
-    padding: 200px;
-    background-color: teal;
-}
 .menu-right{
     display: flex;
     justify-content:space-between;
 }
 .link-text{
     font-size: 25px;
+}
+.menu-item{
+    background-color: #8181F7;
+    color:rgb(255, 255, 255);
+}
+.contato-item{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+li{
+   list-style: none;
+}
+.icone-temp, .icone-atemp{
+    display: flex;
+    flex-direction: row;
+}
+.margin{
+    margin:10px;
+}
+.icone-item{
+    width: 20px;
+    height: auto;
+}
+.imagem-item{
+    width: 500px;
+    height: auto;
+}
+.texto-item{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+}
+.margin-big{
+    margin: 50px;
+}
+.operacao-conteiner{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.operacao-conteiner img{
+    width: 20rem;
+    height: auto;
+}
+footer{
+    margin-top: 100px;
+    color: white;
+    background-color: #8181F7;
+    padding: 50px;
 }
