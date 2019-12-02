@@ -18,6 +18,7 @@ html, body{
 .contato-item{
     display: flex;
     flex-flow: row wrap;
+    align-items: center;
     justify-content: space-between;
 }
 li{
@@ -47,18 +48,50 @@ li{
 .margin-big{
     margin: 50px;
 }
-.operacao-conteiner{
+.search-logo{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: center;
+    align-items: center;
 }
-.operacao-conteiner img{
-    width: 20rem;
-    height: auto;
-}
+.icone-text{
+    width: 80px;
+    height: 100px;
+  }
 footer{
     margin-top: 100px;
     color: white;
     background-color: #8181F7;
     padding: 50px;
 }
+
+.container {
+    position: relative;
+    width: 50%;
+  }
+.image {
+    display: block;
+    width: 50%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(233, 97, 7);
+    overflow: hidden;
+    width: 50%;
+    height: 0;
+    transition: .5s ease;
+  }
+  .container:hover .overlay {
+    height: 100%;
+  }
+  .operacao{
+      display: flex;
+      flex-flow: nowrap row;
+      justify-content: center;
+     margin-left: 100px;
+  }
